@@ -1,0 +1,199 @@
+h3{
+    font-weight: 400;
+}
+.catalog-wrapper{
+    display: flex;
+}
+.products{
+    width: 70%;
+    margin-top: 80px;
+    margin-left: 94px;
+}
+
+.name-products{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.name-products h3{
+    font-size: 28px;
+}
+
+.sort-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    border-top: #D8D8D8 1px solid;
+    margin-bottom: 20px;
+    margin-right: 64px;
+}
+
+.sort-select{
+    font-size: 16px;
+    text-align: center;
+    width: 190px;
+    margin-top: -1px;
+    height: 43px;
+    border-color: #D8D8D8;
+}
+/*-----CATEGORIES-----*/
+.categories{
+    border-left: #D8D8D8 1px solid;
+    width: 30%;
+}
+.search-wrapper{
+    margin-top: 24px;
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories input{
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.categories-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-wrapper h3{
+    font-size: 28px;
+    margin-bottom: 29px;
+    text-align: center;
+}
+
+.btn-catg{
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    font-size: 24px;
+    text-align: center;
+    background-color: white;
+    border: none;
+}
+
+.categories-wrapper button:hover{
+    background-color: #f1f1f1;
+}
+
+.focus-btn{
+    background-color: #D8D8D8;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 293px;
+    margin-right: 25px;
+    margin-bottom: 32px;
+    border: #D8D8D8 solid 1px;
+}
+.card img{
+    width: 100%;
+}
+
+.card-name {
+    height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-price {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.card-view {
+    display: block;
+    padding: 7px 0;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+
+.products-not-found{
+    text-align: center;
+    width: 100%;
+}
+
+@media(max-width: 1030px) {
+    .card{
+        width: 250px;
+    }
+}
+@media(max-width: 900px) {
+    .products {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .card{
+        width: 200px;
+    }
+    .name-products {
+        font-size: 20px;
+    }
+    .name-products h3{
+        font-size: 20px;
+    }
+    .sort-select {
+        font-size: 14px;
+        width: 167px;
+        height: 35px;
+    }
+    .categories-wrapper h3{
+        font-size: 24px;
+    }
+    .btn-catg{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 700px) {
+    .cards-wrapper {
+        justify-content: center;
+    }
+    .sort-wrapper{
+        width: 100%;
+    }
+    .products{
+        width: auto;
+    }
+    .card{
+        width: 146px;
+        margin-right: 15px;
+    }
+    .catalog-wrapper {
+        flex-direction: column-reverse;
+    }
+    .card-name {
+        font-size: 12px;
+    }
+    .card-price {
+        font-size: 14px;
+    }
+    .card-view {
+        font-size: 14px;
+    }
+    .categories {
+        border: none;
+        width: 100%;
+    }
+}
