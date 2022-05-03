@@ -205,6 +205,10 @@ header{
     color: black;
 }
 
+.menu-a:hover{
+    font-weight: bold;
+}
+
 /*-----SECTION-ONE-----*/
 .content-wrapper{
    margin: 0 99px;
@@ -220,6 +224,11 @@ header{
     text-decoration: none;
     color: white;
     background-color: black;
+}
+
+.btn-home:hover {
+    cursor: pointer;
+    background-color: #282828;
 }
 
 .section-one{

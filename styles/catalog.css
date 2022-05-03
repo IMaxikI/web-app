@@ -129,6 +129,11 @@ h3{
     background-color: black;
 }
 
+.card-view:hover {
+    cursor: pointer;
+    background-color: #282828;
+}
+
 .products-not-found{
     text-align: center;
     width: 100%;

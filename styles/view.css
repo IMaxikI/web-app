@@ -89,6 +89,11 @@
     margin-top: 35px;
 }
 
+.add-btn:hover{
+    cursor: pointer;
+    background-color: #282828;
+}
+
 @media(max-width: 900px) {
     .title-view {
         font-size: 20px;
