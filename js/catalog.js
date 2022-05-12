@@ -1,10 +1,10 @@
 const productsDiv = document.querySelector(".products");
 const type = localStorage.getItem("typePage");
-let gen = localStorage.getItem("typePage");
+
 let contentPage = [];
 let selectProduct = [];
 products.forEach(el=>{
-        if(el.gender == gen){
+        if(el.typePage == type){
             contentPage.push(el);
         }
 });
@@ -25,12 +25,12 @@ productsDiv.innerHTML = `<div class="name-products">
 
 // Сортировка
 function sortProducts(){
-    const tempProduct = selectProduct;
+    const tempProduct = [...selectProduct];
     const sortSelect = document.querySelector(".sort-select");
     if(sortSelect.value == "asc"){
         tempProduct.sort( (a,b)=>a.price - b.price);
         printProduct(tempProduct);
-    }else if(sortSelect.value = "desc"){
+    }else if(sortSelect.value == "desc"){
         tempProduct.sort( (a,b)=>b.price - a.price);
         printProduct(tempProduct);
     }else{
@@ -43,7 +43,10 @@ const categories = document.querySelector(".categories-wrapper");
 
 let categs = new Set();
 products.forEach(el=>{
-    categs.add(el.type);
+    if(el.typePage == type){
+        categs.add(el.type);
+    }
+
 });
 
 categories.innerHTML = `<h3>КАТЕГОРИИ</h3>

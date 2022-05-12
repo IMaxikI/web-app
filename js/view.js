@@ -24,10 +24,15 @@ view.innerHTML = `<div class="img-wrapper">
                             <span>Цвет:</span>${btnColor}
                         </div>
                         <div class="size-wrapper">
-                            <span>Размер:</span>${btnSize}
+                            
                         </div>
                         <a class="add-btn">ДОБАВИТЬ В КОРЗИНУ</a>       
                     </div>`;
+const sizeWrapper = document.querySelector(".size-wrapper");
+if(btnSize != ''){
+    sizeWrapper.innerHTML = `<span>Размер:</span>${btnSize}`
+}
+
 
 const btnsColors = document.querySelectorAll(".btn-color");
 btnsColors[0].className += " focus-color";

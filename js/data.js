@@ -9,7 +9,7 @@ let products= [
         "blue": "assets/products/jackets-m/ColumbiaAscenderSoftshell-blue.jpg",
     },
     "type": "Куртки",
-    "gender": "Мужчинам",
+    "typePage": "Мужчинам",
      "size": ["46", "48-50"]
     },
     {
@@ -20,7 +20,7 @@ let products= [
             "black": "assets/products/jackets-m/Kappa-black.jpg",
         },
         "type": "Куртки",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["48", "50", "52-54"]
     },
     {
@@ -31,7 +31,7 @@ let products= [
             "black": "assets/products/jackets-m/NikeRunStripe-black.jpg",
         },
         "type": "Куртки",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["46", "48-50"]
     },
     {
@@ -43,7 +43,7 @@ let products= [
             "beige": "assets/products/jackets-w/ColumbiaPark2-beige.jpg",
         },
         "type": "Куртки",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["46", "48"]
     },
     {
@@ -54,7 +54,7 @@ let products= [
             "black": "assets/products/jackets-w/NikeDriFIT-black.jpg",
         },
         "type": "Куртки",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["50"]
     }, // shirts
     {
@@ -66,7 +66,7 @@ let products= [
             "gray": "assets/products/shirts-m/NikeProDri-gray.jpg",
         },
         "type": "Футболки",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["46", "48-50", "54"]
     },
     {
@@ -78,7 +78,7 @@ let products= [
             "aqua": "assets/products/shirts-m/PumaESS-blue.jpg",
         },
         "type": "Футболки",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["48"]
     },
     {
@@ -90,7 +90,7 @@ let products= [
             "beige": "assets/products/shirts-m/PumaRAD-beige.jpg",
         },
         "type": "Футболки",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["42", "48"]
     },
     {
@@ -103,7 +103,7 @@ let products= [
             "white": "assets/products/shirts-m/Termit-white.jpg",
         },
         "type": "Футболки",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["36", "40"]
     },
     {
@@ -114,7 +114,7 @@ let products= [
             "white": "assets/products/shirts-w/NikeDri-white.jpg"
         },
         "type": "Футболки",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["32", "38"]
     },
     {
@@ -126,7 +126,7 @@ let products= [
             "white": "assets/products/shirts-w/NikeSportwear-white.jpg"
         },
         "type": "Футболки",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["38"]
     },
     {
@@ -138,7 +138,7 @@ let products= [
             "pink": "assets/products/shirts-w/PumaESS-pink.jpg",
         },
         "type": "Футболки",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["40"]
     },
     {
@@ -150,7 +150,7 @@ let products= [
             "beige": "assets/products/shirts-w/PumaPowerTape-beige.jpg",
         },
         "type": "Футболки",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["32","38", "40"]
     },// Shoes
     {
@@ -161,7 +161,7 @@ let products= [
             "white": "assets/products/shoes-m/AdidasStrutter-white.jpg"
         },
         "type": "Обувь",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["41", "42-43"]
     },
     {
@@ -173,7 +173,7 @@ let products= [
             "white": "assets/products/shoes-m/NikeDefyAllDay-white.jpg"
         },
         "type": "Обувь",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["40", "42", "43"]
     },
     {
@@ -185,7 +185,7 @@ let products= [
             "white": "assets/products/shoes-m/PumaX-Ray-white.jpg"
         },
         "type": "Обувь",
-        "gender": "Мужчинам",
+        "typePage": "Мужчинам",
         "size": ["40","43"]
     },
     {
@@ -196,7 +196,7 @@ let products= [
             "black": "assets/products/shoes-w/NikeWearallday-black.jpg"
         },
         "type": "Обувь",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["39", "40"]
     },
     {
@@ -208,7 +208,106 @@ let products= [
             "white": "assets/products/shoes-w/PumaRunner-white.jpg"
         },
         "type": "Обувь",
-        "gender": "Женщинам",
+        "typePage": "Женщинам",
         "size": ["37", "38"]
+    },// Sport-products
+    {
+        "name": "Гантель Kettler 15кг",
+        "description": "Крутое описание товара.",
+        "price": "312.00",
+        "colors": {
+            "black": "assets/products/sport-products/Dumbbell-kettler-15.jpg"
+        },
+        "type": "Гантели",
+        "typePage": "Спорттовары",
+        "size": ["15кг"]
+    },
+    {
+        "name": "Гантель Demix 5кг",
+        "description": "Крутое описание товара.",
+        "price": "98.80",
+        "colors": {
+            "black": "assets/products/sport-products/Dumbbell-demix-5.jpg"
+        },
+        "type": "Гантели",
+        "typePage": "Спорттовары",
+        "size": ["5кг"]
+    },
+    {
+        "name": "Гантель Demix 3кг",
+        "description": "Крутое описание товара.",
+        "price": "57.80",
+        "colors": {
+            "red": "assets/products/sport-products/Dumbbell-demix-3.jpg"
+        },
+        "type": "Гантели",
+        "typePage": "Спорттовары",
+        "size": ["5кг"]
+    },
+    {
+        "name": "Беговая дорожка Olympia",
+        "description": "Крутое описание товара.",
+        "price": "2996.99",
+        "colors": {
+            "black": "assets/products/sport-products/Treadmill-olympia.jpg"
+        },
+        "type": "Беговые дорожки",
+        "typePage": "Спорттовары",
+        "size": []
+    },
+    {
+        "name": "Беговая дорожка Torneo Nota",
+        "description": "Крутое описание товара.",
+        "price": "2245.59",
+        "colors": {
+            "black": "assets/products/sport-products/Treadmill-torneoNota.jpg"
+        },
+        "type": "Беговые дорожки",
+        "typePage": "Спорттовары",
+        "size": []
+    },
+    {
+        "name": "Велосипед горный Stern Energy 27,5",
+        "description": "Крутое описание товара.",
+        "price": "1105.00",
+        "colors": {
+            "black": "assets/products/sport-products/bike-stern-energy-27,5'.jpg"
+        },
+        "type": "Велосипеды",
+        "typePage": "Спорттовары",
+        "size": ["150-165", "165-175"]
+    },
+    {
+        "name": "Велосипед горный Dynamic 26",
+        "description": "Крутое описание товара.",
+        "price": "972.00",
+        "colors": {
+            "black": "assets/products/sport-products/bike-stern-dynamic-26'.jpg"
+        },
+        "type": "Велосипеды",
+        "typePage": "Спорттовары",
+        "size": ["150-165", "175-185"]
+    },
+    {
+        "name": "Велотренажер магнитный NordicTrack GX 2.7 U",
+        "description": "Крутое описание товара.",
+        "price": "1678.00",
+        "colors": {
+            "black": "assets/products/sport-products/BikeTr-nordicTrack-gx-u.jpg"
+        },
+        "type": "Велотренажеры",
+        "typePage": "Спорттовары",
+        "size": []
+    },
+    {
+        "name": "Велотренажер магнитный Kettler Axos Cycle M",
+        "description": "Крутое описание товара.",
+        "price": "1020.00",
+        "colors": {
+            "gray": "assets/products/sport-products/BikeTr-kettler-axos-cycle-m.jpg"
+        },
+        "type": "Велотренажеры",
+        "typePage": "Спорттовары",
+        "size": []
     }
    ];
