@@ -139,6 +139,12 @@ h3{
     width: 100%;
 }
 
+@media(min-width: 1600px) {
+    .cards-wrapper {
+        justify-content: center;
+    }
+}
+
 @media(max-width: 1030px) {
     .card{
         width: 250px;

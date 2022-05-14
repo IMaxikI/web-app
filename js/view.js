@@ -26,7 +26,8 @@ view.innerHTML = `<div class="img-wrapper">
                         <div class="size-wrapper">
                             
                         </div>
-                        <a class="add-btn">ДОБАВИТЬ В КОРЗИНУ</a>       
+                        <a class="add-btn">ДОБАВИТЬ В КОРЗИНУ</a>  
+                        <a class="tel" href="tel:+375123456789">ЗАКАЗАТЬ ПО ТЕЛЕФОНУ: +375 (12) 345-67-89</a>     
                     </div>`;
 const sizeWrapper = document.querySelector(".size-wrapper");
 if(btnSize != ''){

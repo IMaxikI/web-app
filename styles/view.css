@@ -93,7 +93,16 @@
     cursor: pointer;
     background-color: #282828;
 }
-
+.tel{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.tel:hover{
+    font-weight: bold;
+}
 @media(max-width: 900px) {
     .title-view {
         font-size: 20px;
@@ -132,5 +141,8 @@
     }
     .img-wrapper {
         width: 240px;
+    }
+    .tel{
+        font-size: 12px;
     }
 }
