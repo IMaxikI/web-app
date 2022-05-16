@@ -34,7 +34,7 @@
 }
 
 .description{
-    width: 240px;
+    width: 400px;
     text-align: justify;
     font-size: 18px;
     margin-bottom: 35px;
@@ -101,9 +101,13 @@
     margin-top: 20px;
 }
 .tel:hover{
+    text-decoration: underline;
     font-weight: bold;
 }
 @media(max-width: 900px) {
+    .description{
+        width: 240px;
+    }
     .title-view {
         font-size: 20px;
     }
@@ -126,6 +130,9 @@
 }
 
 @media(max-width: 700px) {
+    .description{
+        width: 100%;
+    }
     .view-wrapper {
         margin-right: 42px;
         margin-left: 42px;
